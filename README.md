@@ -1,3 +1,6 @@
+ TRAZER PARA A PRÓXIMA AULA DUAS APIS PÚBLICAS COM ENDPOINTS QUE TAMBEM TENHA POST, PUT ( JÁ DEIXA AS APIS VALIDADAS)
+
+
 # API test automation with Jest and PactumJS
 teste2
 > Simple integration between JestJS and PactumJS.
