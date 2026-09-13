@@ -1,5 +1,32 @@
  TRAZER PARA A PRÓXIMA AULA DUAS APIS PÚBLICAS COM ENDPOINTS QUE TAMBEM TENHA POST, PUT ( JÁ DEIXA AS APIS VALIDADAS)
 
+APIs:
+
+JSONPlaceholder
+URL BASE: https://jsonplaceholder.typicode.com
+Endpoints: 
+POST /posts
+PUT /posts/1
+
+
+
+Reqres (ReqRes in)
+URL BASE: https://reqres.in
+POST /api/users
+PUT /api/users/2
+
+
+Restful-API
+URL BASE: https://api.restful-api.dev
+POST /objects
+PUT /objects/7
+
+DummyJSON
+URL BASE: https://dummyjson.com
+POST /products/add
+PUT /products/1
+
+
 
 # API test automation with Jest and PactumJS
 teste2
