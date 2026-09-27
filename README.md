@@ -2,36 +2,48 @@
 
 APIs:
 
-JSONPlaceholder
-URL BASE: https://jsonplaceholder.typicode.com
-Endpoints: 
-POST /posts
-PUT /posts/1
-
-
-
-Reqres (ReqRes in)
-URL BASE: https://reqres.in
-POST /api/users
-PUT /api/users/2
-
-
-Restful-API
-URL BASE: https://api.restful-api.dev
-POST /objects
-PUT /objects/7
-
-DummyJSON
-URL BASE: https://dummyjson.com
-POST /products/add
-PUT /products/1
-
 
 Restful-API ([https://api.restful-api.dev](https://api.restful-api.dev)) <br>
-
 URL Base:    [https://api.restful-api.dev](https://api.restful-api.dev) <br>
 POST /objects (Cria um novo objeto tecnológico/dispositivo) <br>
+formato do JSON para POST:  <br>
+{ <br>
+   "name": "MacBook Pro M3 Test", <br>
+   "data": { <br>
+      "year": 2026, <br>
+      "price": 1849.99, <br>
+      "CPU model": "Apple M3", <br>
+      "Hard disk size": "1 TB" <br>
+   } <br>
+} <br>
+
+RETORNO DO POST:
+{ <br>
+    "id": "ff808181a09d98f701a0e455b4ec2852", <br>
+    "name": "MacBook Pro M3 Test", <br>
+    "createdAt": 1790537217260, <br>
+    "data": { <br>
+        "year": 2026, <br>
+        "price": 1849.99, <br>
+        "CPU model": "Apple M3", <br>
+        "Hard disk size": "1 TB" <br>
+    } <br>
+} <br>
+
 PUT /objects/ff808181932badb60193301a913413ea (Atualiza um objeto existente — nota: você também pode usar um ID dinâmico gerado na hora pelo seu teste via POST <br>
+
+{ <br>
+   "name": "MacBook Pro M3 Atualizado", <br>
+   "data": { <br>
+      "year": 2026, <br>
+      "price": 1999.99, <br>
+      "CPU model": "Apple M3 Max", <br>
+      "Hard disk size": "2 TB", <br>
+      "color": "Silver" <br>
+   } <br>
+} <br>
+
+
 GET /objects <br>
 DELETE /objects/{id} <br>
 
