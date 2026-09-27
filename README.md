@@ -27,13 +27,13 @@ POST /products/add
 PUT /products/1
 
 
-Restful-API ([https://api.restful-api.dev](https://api.restful-api.dev))
+Restful-API ([https://api.restful-api.dev](https://api.restful-api.dev)) <br>
 
-URL Base:    [https://api.restful-api.dev](https://api.restful-api.dev)
-POST /objects (Cria um novo objeto tecnológico/dispositivo)
-PUT /objects/ff808181932badb60193301a913413ea (Atualiza um objeto existente — nota: você também pode usar um ID dinâmico gerado na hora pelo seu teste via POST)
-GET /objects
-DELETE /objects/{id}
+URL Base:    [https://api.restful-api.dev](https://api.restful-api.dev) <br>
+POST /objects (Cria um novo objeto tecnológico/dispositivo) <br>
+PUT /objects/ff808181932badb60193301a913413ea (Atualiza um objeto existente — nota: você também pode usar um ID dinâmico gerado na hora pelo seu teste via POST <br>
+GET /objects <br>
+DELETE /objects/{id} <br>
 
 
 
