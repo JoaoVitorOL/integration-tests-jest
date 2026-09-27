@@ -27,6 +27,8 @@ POST /products/add
 PUT /products/1
 
 
+1. Restful-API ([https://api.restful-api.dev](https://api.restful-api.dev))Esta é uma excelente escolha, pois é uma API real conectada a um banco de dados, feita especificamente para testes, protótipos e simulações, garantindo respostas rápidas e sem concorrência excessiva.URL Base:    [https://api.restful-api.dev](https://api.restful-api.dev)Endpoints validados para a entrega:POST /objects (Cria um novo objeto tecnológico/dispositivo)   PUT /objects/ff808181932badb60193301a913413ea (Atualiza um objeto existente — nota: você também pode usar um ID dinâmico gerado na hora pelo seu teste via POST)   GET /objects   DELETE /objects/{id}
+
 
 # API test automation with Jest and PactumJS
 teste2
